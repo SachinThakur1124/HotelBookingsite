@@ -1,0 +1,46 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.userName {
+  margin-left: 680px;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  color: white;
+  background-color: #0071c2;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.logo {
+  background: linear-gradient(
+    45deg,
+    rgb(26, 188, 26),
+    #63c3ff,
+    rgb(255, 102, 47)
+  );
+  background-clip: text;
+  color: transparent;
+  display: inline;
+  font-weight: 700;
+  font-size: 18px;
+}

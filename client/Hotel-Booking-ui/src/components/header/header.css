@@ -1,0 +1,132 @@
+.header{
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+
+.headerContainer.listMode{
+    margin: 20px 0 0px 0;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc{
+    margin: 20px 0;
+}
+
+.headerBtn{
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+  
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid orange;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 30px;
+    bottom: -25px;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+   border: none;
+   outline: none;
+}
+
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+
+}
+
+.headerIcon{
+    color: lightgray;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options{
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 10px;
+    -webkit-box-shadow : 0 0 10px  -5px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px -5px rgba(0,0,0,0.4);
+}
+
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    color: black;
+}
+
+.optionCounterBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: orange;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.optionCounterBtn:disabled{
+    cursor: not-allowed;
+}
